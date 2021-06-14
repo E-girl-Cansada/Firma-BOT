@@ -4,10 +4,10 @@ module.exports = class extends Command {
 
 	async run(message) {
 
-		if(message.author.id === '158280811139825665') {
+		if(message.author.id === '') {
 
 			const sayAnnMessage = message.content.slice(16);
-			this.client.guilds.cache.get('583059416291737650').channels.cache.get('852367609869762600').send(sayAnnMessage);
+			this.client.guilds.cache.get('').channels.cache.get('').send(sayAnnMessage);
 
 		}
 		else {
